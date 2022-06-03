@@ -22,4 +22,10 @@ mixedMessageGenerator = () => {
     let romanticPosition = Math.floor(Math.random() * 10);
 
 // now use these nnumbers as array positions to return or prin ta message to the console with three random messages 
+
+    console.log(`Your random motivation message is: ${motivationalMessages[motivationPosition]}. Let us keep you inspired with a random inspirational message "${inspirationalMessages[inspirationPosition]}. But always remember to cherish the people you love. Here's a romantic message to keep the fire burning: ${romanticMessages[romanticPosition]}`);
+
 }
+
+
+mixedMessageGenerator();
