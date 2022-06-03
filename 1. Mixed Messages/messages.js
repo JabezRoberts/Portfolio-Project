@@ -5,3 +5,21 @@ let inspirationalMessages = [`“When you have a dream, you’ve got to grab it 
 
 
 let romanticMessages = [`If loving you was a job, I'd be the most deserving, dedicated, and qualified candidate. In fact, I'd even be willing to work for free!`, `If someone asked me to describe you in just two words, I'd say "Simply Amazing."`, `You do a million little things that bring joy to my life`, `My six-word love story: "I can't imagine life without you."`, `Your smile is literally the cutest thing I've ever seen in my life.`, `Everyone has their own motivation to get up in the morning and face the day. You are mine.`, `You are my Knight in shining boxer shorts.`, `The only time I stupidly smile at my phone is when I get text messages from you.`, `What is love? It is what makes your cell phone ring every time I send text messages.`,`Can I borrow a kiss? I promise to give it back`, `You wanna know who I'm in love with? Read the first word again`];
+
+//create a function that  takes in no arguments but does the following
+/*
+1. Generate three random numbers between 0 and 9
+2. Use these three numbers to select an array position from the three arrays above
+3. concatenate them to create a random message
+4. Return this message
+*/
+
+
+mixedMessageGenerator = () => {
+    
+    let motivationPosition = Math.floor(Math.random() * 10); //genertate random number between 0 and 9
+    let inspirationPosition = Math.floor(Math.random() * 10);
+    let romanticPosition = Math.floor(Math.random() * 10);
+
+// now use these nnumbers as array positions to return or prin ta message to the console with three random messages 
+}
